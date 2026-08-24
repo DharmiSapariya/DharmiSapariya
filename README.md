@@ -16,7 +16,7 @@ This page is where I keep track of what I have been building. I am a student, an
 
 Evidence-based career intelligence for the tech job market, built for individuals instead of enterprises. Every number the app shows comes from live postings sitting in a real database, including the parts still being built, which are labeled as such.
 
-`Python 3.12`&nbsp; `FastAPI`&nbsp; `PostgreSQL`&nbsp; · CI on every push
+`Python 3.12`&nbsp; `FastAPI`&nbsp; `PostgreSQL`&nbsp; `Docker`&nbsp; · CI on every push
 
 <br/>
 
@@ -28,7 +28,7 @@ Evidence-based career intelligence for the tech job market, built for individual
 
 Upload a photo or video, get a confidence score, and get back a pre-filled FIR draft plus takedown reports for the platform it is on.
 
-`React` `FastAPI` `Python`
+`React` `Tailwind` `FastAPI` `PyTorch` `OpenCV`
 </details>
 
 <details>
@@ -37,7 +37,7 @@ Upload a photo or video, get a confidence score, and get back a pre-filled FIR d
 
 Reads an ingredient label, flags allergens hidden behind E-numbers and vague terms like "natural flavouring," and suggests something safe to eat instead. Started as deep-learning coursework.
 
-`PyTorch` `FastAPI` `OCR`
+`PyTorch` `FastAPI` `LangChain` `OCR`
 </details>
 
 <details>
@@ -55,7 +55,7 @@ A multi-sensor security prototype using ultrasonic, metal, gas, and DHT11 sensor
 
 Feature modules for the day-to-day of running a legal practice, including payment-default prediction and insurance workflows.
 
-`Python` `SQLAlchemy`
+`Python` `FastAPI` `PostgreSQL` `Celery`
 </details>
 
 <details>
@@ -64,28 +64,46 @@ Feature modules for the day-to-day of running a legal practice, including paymen
 
 Still in progress.
 
-`React` `Vite`
+`React` `Tailwind` `Vite` `Framer Motion`
 </details>
 
 <br/>
 
 ## Tech Stack
 
-**Languages and Frameworks**
+**Languages**
 <br>
-<img src="https://skillicons.dev/icons?i=py,js,html,css,react,fastapi&theme=dark" />
+<img src="https://skillicons.dev/icons?i=py,js,html,css&theme=dark" />
 
-**Data and ML**
+**Frameworks and Libraries**
 <br>
-<img src="https://skillicons.dev/icons?i=pytorch,numpy&theme=dark" />
+<img src="https://skillicons.dev/icons?i=fastapi,flask,react,tailwind&theme=dark" />
 
-**Systems and Hardware**
+**AI and ML**
 <br>
-<img src="https://skillicons.dev/icons?i=arduino,cpp,postgres&theme=dark" />
+<img src="https://skillicons.dev/icons?i=pytorch,opencv,numpy&theme=dark" />
+<br>
+also working with: `scikit-learn` `spaCy` `LangChain` `Transformers` `MediaPipe`
+
+**Data and Infra**
+<br>
+<img src="https://skillicons.dev/icons?i=postgres,redis,docker&theme=dark" />
+
+**Hardware**
+<br>
+<img src="https://skillicons.dev/icons?i=arduino,cpp&theme=dark" />
+
+**Design**
+<br>
+<img src="https://skillicons.dev/icons?i=figma&theme=dark" />
+
+**IDEs**
+<br>
+<img src="https://skillicons.dev/icons?i=vscode,pycharm,idea&theme=dark" />
 
 **Tools**
 <br>
-<img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark" />
+<img src="https://skillicons.dev/icons?i=git,github&theme=dark" />
 
 <br/>
 
@@ -93,5 +111,5 @@ Still in progress.
 
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=DharmiSapariya&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
-<img src="https://streak-stats.demolab.com/?user=DharmiSapariya&theme=tokyonight&hide_border=true" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DharmiSapariya&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
 </p>
