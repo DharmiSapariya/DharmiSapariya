@@ -4,9 +4,9 @@
 
 **Student Developer**
 
-This profile follows my growth as a student developer who keeps learning and puts that learning into real work. My focus spans AI systems, automation, and full-stack development, and I stay open to learning from and collaborating with people who understand system design better than I do.
+I'm a computer science student who spends more time building than reading about building. My work moves between applied machine learning, backend APIs, and mobile apps, depending on what the problem in front of me actually needs.
 
-When I come across something I do not know, I learn it by building the solution rather than waiting until I feel ready.
+I don't wait until I feel qualified to start something. I pick up whatever a project requires as I go, and figure out the rest along the way.
 
 </div>
 
@@ -112,8 +112,6 @@ also working with: `scikit-learn` `spaCy` `LangChain` `Transformers` `MediaPipe`
 ## GitHub
 
 <p align="center">
-<img src="assets/github-stats.svg" height="165"/>
-<img src="assets/streak-stats.svg" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=DharmiSapariya&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
+<img src="https://streak-stats.demolab.com/?user=DharmiSapariya&theme=tokyonight&hide_border=true" height="165"/>
 </p>
-
-<p align="center"><sub>refreshed automatically every day</sub></p>
