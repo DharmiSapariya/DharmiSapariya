@@ -10,8 +10,7 @@ I don't wait until I feel qualified to start something. I pick up whatever a pro
 
 <br/>
 
-![GitHub followers](https://img.shields.io/github/followers/DharmiSapariya?style=flat-square&label=followers&color=24292e&labelColor=171717)
-![Profile views](https://komarev.com/ghpvc/?username=DharmiSapariya&style=flat-square&color=24292e&label=profile+views)
+
 
 </div>
 
