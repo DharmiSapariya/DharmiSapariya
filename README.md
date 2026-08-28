@@ -2,25 +2,30 @@
 
 # Dharmi Sapariya
 
-**Student Developer**
+![Student Developer](https://img.shields.io/badge/Student-Developer-171717?style=for-the-badge&labelColor=171717&color=2563EB)
 
 I'm a computer science student who spends more time building than reading about building. My work moves between applied machine learning, backend APIs, and mobile apps, depending on what the problem in front of me actually needs.
 
 I don't wait until I feel qualified to start something. I pick up whatever a project requires as I go, and figure out the rest along the way.
 
+<br/>
+
+![GitHub followers](https://img.shields.io/github/followers/DharmiSapariya?style=flat-square&label=followers&color=24292e&labelColor=171717)
+![Profile views](https://komarev.com/ghpvc/?username=DharmiSapariya&style=flat-square&color=24292e&label=profile+views)
+
 </div>
 
-<br/>
+---
 
 ## Latest Project
 
-**[NextSkill](https://github.com/DharmiSapariya/NextSkill)**
+> ### [NextSkill](https://github.com/DharmiSapariya/NextSkill)
+>
+> Evidence-based career intelligence for the tech job market, built for individuals instead of enterprises. Every number the app shows comes from live postings sitting in a real database, including the parts still being built, which are labeled as such.
+>
+> `Python 3.12` `FastAPI` `PostgreSQL` `Docker` &nbsp;·&nbsp; CI on every push
 
-Evidence-based career intelligence for the tech job market, built for individuals instead of enterprises. Every number the app shows comes from live postings sitting in a real database, including the parts still being built, which are labeled as such.
-
-`Python 3.12`&nbsp; `FastAPI`&nbsp; `PostgreSQL`&nbsp; `Docker`&nbsp; · CI on every push
-
-<br/>
+---
 
 ## Projects
 
@@ -69,45 +74,22 @@ Still in progress.
 `React` `Tailwind` `Vite` `Framer Motion`
 </details>
 
-<br/>
+---
 
 ## Tech Stack
 
-**Languages**
-<br>
-<img src="https://skillicons.dev/icons?i=py,js,html,css&theme=dark" />
+| | |
+|---|---|
+| **Languages** | <img src="https://skillicons.dev/icons?i=py,js,html,css&theme=dark" /> |
+| **Frameworks & Libraries** | <img src="https://skillicons.dev/icons?i=fastapi,flask,react,tailwind&theme=dark" /> |
+| **AI & ML** | <img src="https://skillicons.dev/icons?i=pytorch,opencv,numpy&theme=dark" /><br/>`scikit-learn` `spaCy` `LangChain` `Transformers` `MediaPipe` |
+| **Data & Infra** | <img src="https://skillicons.dev/icons?i=postgres,redis,docker&theme=dark" /> |
+| **Hardware** | <img src="https://skillicons.dev/icons?i=arduino,cpp&theme=dark" /> |
+| **Design** | <img src="https://skillicons.dev/icons?i=figma&theme=dark" /> |
+| **IDEs** | <img src="https://skillicons.dev/icons?i=vscode,pycharm,idea&theme=dark" /> |
+| **Tools** | <img src="https://skillicons.dev/icons?i=git,github&theme=dark" /> |
 
-**Frameworks and Libraries**
-<br>
-<img src="https://skillicons.dev/icons?i=fastapi,flask,react,tailwind&theme=dark" />
-
-**AI and ML**
-<br>
-<img src="https://skillicons.dev/icons?i=pytorch,opencv,numpy&theme=dark" />
-<br>
-also working with: `scikit-learn` `spaCy` `LangChain` `Transformers` `MediaPipe`
-
-**Data and Infra**
-<br>
-<img src="https://skillicons.dev/icons?i=postgres,redis,docker&theme=dark" />
-
-**Hardware**
-<br>
-<img src="https://skillicons.dev/icons?i=arduino,cpp&theme=dark" />
-
-**Design**
-<br>
-<img src="https://skillicons.dev/icons?i=figma&theme=dark" />
-
-**IDEs**
-<br>
-<img src="https://skillicons.dev/icons?i=vscode,pycharm,idea&theme=dark" />
-
-**Tools**
-<br>
-<img src="https://skillicons.dev/icons?i=git,github&theme=dark" />
-
-<br/>
+---
 
 ## GitHub
 
