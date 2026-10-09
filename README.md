@@ -1,6 +1,6 @@
 <div align="center">
 
-# Dharmi Sapariya
+# Dharmi Sapa
 
 ![Student Developer](https://img.shields.io/badge/Student-Developer-171717?style=for-the-badge&labelColor=171717&color=2563EB)
 
