@@ -1,26 +1,3 @@
-<h1 align="center">Hi, I'm Dharmi Sapariya </h1>
-
-<p align="center">
-  Third-year BCA student at <b>VIT-AP University</b> building applied ML systems, backend APIs, and hardware prototypes.<br/>
-  I like projects where the model is only one part of a working product.
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:YOUR-EMAIL"><img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-</p>
-
----
-
-## About
-
-- 🎓 BCA, School of Computer Science Engineering and Information Systems, VIT-AP University
-- 🧠 Focus: machine learning, deep learning, data pipelines, and the APIs that serve them
-- 🏅 **Oracle Cloud Infrastructure 2025 Certified Generative AI Professional** (July 2026)
-- 🔍 Looking for internships in ML / AI engineering and backend development
-
----
-
 ## Featured Projects
 
 ### [NextSkill](https://github.com/DharmiSapariya/NextSkill)
@@ -93,4 +70,11 @@ Two-stage pipeline for matching noisy business records: high-recall candidate ge
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=DharmiSapariya&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="49%" alt="GitHub stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DharmiSapariya&layout=compact&theme=tokyonight&hide_border=true" width="49%" alt="Top languages" />
+</p>
+
+---
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:YOUR-EMAIL"><img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
