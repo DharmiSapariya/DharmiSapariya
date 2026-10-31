@@ -1,4 +1,4 @@
-## Featured Projects
+## 🚀 Featured Projects
 
 ### [NextSkill](https://github.com/DharmiSapariya/NextSkill)
 Career intelligence for the tech job market, built for individuals instead of enterprises. Job postings from two sources are ingested into PostgreSQL, skills are extracted with NLP, and the dashboard recommends what to learn next. Every number traces back to real postings.
@@ -24,7 +24,7 @@ Two-stage pipeline for matching noisy business records: high-recall candidate ge
 
 ---
 
-## More Projects
+## 🛠️ More Projects
 
 | Project | What it is | Stack |
 |---|---|---|
@@ -34,7 +34,7 @@ Two-stage pipeline for matching noisy business records: high-recall candidate ge
 
 ---
 
-## Certifications and Learning
+## 🏅 Certifications and Learning
 
 | | |
 |---|---|
@@ -45,36 +45,28 @@ Two-stage pipeline for matching noisy business records: high-recall candidate ge
 
 ---
 
-## Tech Stack
+## 🧰 Tech Stack
 
-**Languages**
-![](https://skillicons.dev/icons?i=py,js,cpp,html,css&theme=dark)
-
-**Backend and data**
-![](https://skillicons.dev/icons?i=fastapi,flask,nodejs,express,postgres,redis,docker&theme=dark)
-
-**ML and AI**
-![](https://skillicons.dev/icons?i=pytorch,opencv,numpy&theme=dark)
-`scikit-learn` `spaCy` `LangChain` `Transformers` `LightGBM`
-
-**Frontend**
-![](https://skillicons.dev/icons?i=react,vite,tailwind,figma&theme=dark)
-
-**Hardware and tools**
-![](https://skillicons.dev/icons?i=arduino,raspberrypi,git,github,vscode&theme=dark)
+| | |
+|---|---|
+| **Languages** | ![](https://skillicons.dev/icons?i=py,js,html,css&theme=dark) |
+| **Frameworks & Libraries** | ![](https://skillicons.dev/icons?i=fastapi,flask,react,tailwind&theme=dark) |
+| **AI & ML** | ![](https://skillicons.dev/icons?i=pytorch,opencv,numpy&theme=dark) `scikit-learn` `spaCy` `LangChain` `Transformers` `MediaPipe` |
+| **Data & Infra** | ![](https://skillicons.dev/icons?i=postgres,redis,docker&theme=dark) |
+| **Hardware** | ![](https://skillicons.dev/icons?i=arduino,cpp&theme=dark) |
+| **Design** | ![](https://skillicons.dev/icons?i=figma&theme=dark) |
+| **IDEs** | ![](https://skillicons.dev/icons?i=vscode,pycharm,idea&theme=dark) |
+| **Tools** | ![](https://skillicons.dev/icons?i=git,github&theme=dark) |
 
 ---
 
-## GitHub Stats
+## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DharmiSapariya&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="49%" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DharmiSapariya&layout=compact&theme=tokyonight&hide_border=true" width="49%" alt="Top languages" />
+  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" width="49%" alt="GitHub stats" />
+  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" alt="Most used languages" />
 </p>
-
----
-
 <p align="center">
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:YOUR-EMAIL"><img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%" alt="Repos per language" />
+  <img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" width="49%" alt="Productive time" />
 </p>
