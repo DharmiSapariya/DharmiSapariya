@@ -2,7 +2,10 @@
 
 ### [NextSkill](https://github.com/DharmiSapariya/NextSkill)
 Career intelligence for the tech job market, built for individuals instead of enterprises. Job postings from two sources are ingested into PostgreSQL, skills are extracted with NLP, and the dashboard recommends what to learn next. Every number traces back to real postings.
-**30+ API endpoints · 156 tests · CI on every push**
+**30+ API endpoints · 156 tests**
+
+[![NextSkill CI status on main](https://github.com/DharmiSapariya/NextSkill/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/DharmiSapariya/NextSkill/actions/workflows/ci.yml?query=branch%3Amain)
+
 `Python` `FastAPI` `PostgreSQL` `Redis` `Docker` `spaCy` `Streamlit`
 
 ### [Kavach](https://github.com/DharmiSapariya/Kavach)
@@ -11,7 +14,10 @@ Free deepfake detection for women in India. A 4-signal pipeline scores any image
 
 ### [WalletWise](https://github.com/DharmiSapariya/WalletWise)
 Full-stack personal finance dashboard with an AI coach that reads the user's real transaction data. Includes server-side analytics (trend regression, anomaly detection, Monte-Carlo budget forecasting) and the Claude API integration runs on the backend so keys never reach the browser.
-**44 automated tests · Docker Compose · GitHub Actions CI**
+**44 automated tests · Docker Compose**
+
+[![WalletWise CI status on main](https://github.com/DharmiSapariya/WalletWise/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/DharmiSapariya/WalletWise/actions/workflows/ci.yml?query=branch%3Amain)
+
 `React` `Node.js` `Express` `PostgreSQL` `Claude API`
 
 ### [NeuraVapor](https://github.com/DharmiSapariya/NeuraVapor)
@@ -61,6 +67,8 @@ Two-stage pipeline for matching noisy business records: high-recall candidate ge
 ---
 
 ## 📊 GitHub Stats
+
+[Profile card refresh history](https://github.com/DharmiSapariya/DharmiSapariya/actions/workflows/profile-summary-cards.yml)
 
 <p align="center">
   <img src="./profile-summary-card-output/tokyonight/3-stats.svg" width="49%" alt="GitHub stats" />
