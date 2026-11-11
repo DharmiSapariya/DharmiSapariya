@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.svg" width="100%" alt="Dharmi Sapariya: AI-backed software, from data pipelines to hardware" />
+<img src="./banner.svg" width="100%" alt="Dharmi Sapariya: AI-backed software, from data pipelines to hardware" />
 
 <br/>
 
@@ -19,7 +19,7 @@
   [![Email](https://img.shields.io/badge/Email-161b22?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR-EMAIL)
 -->
 
-<img src="./assets/metrics.svg" width="100%" alt="Selected numbers: 156 tests, 30+ API endpoints, 92.35% blocking recall, 44 tests" />
+<img src="./metrics.svg" width="100%" alt="Selected numbers: 156 tests, 30+ API endpoints, 92.35% blocking recall, 44 tests" />
 
 ## Focus
 
