@@ -1,6 +1,6 @@
 <img src="./banner.svg" width="100%" alt="Dharmi Sapariya, B.Tech CSE student at VIT-AP University" />
 
-[LinkedIn](https://www.linkedin.com/in/dharmi-sapariya-b98754390/) · [Current work](#current-work) · [Projects](#projects) · [Credentials](#credentials) · [GitHub activity](#github-activity)
+[LinkedIn](https://www.linkedin.com/in/dharmi-sapariya-b98754390/) · [Current work](#current-work) · [Projects](#projects) · [Credentials](#credentials) · [Tools](#tools-and-technologies) · [GitHub activity](#github-activity)
 
 I’m a B.Tech Computer Science and Engineering student at VIT-AP University, specializing in AI and Machine Learning. I like working across the stack, from the interface and API to the data behind them. Outside software, I’m interested in finance, especially markets, quantitative research, and risk.
 
@@ -18,34 +18,35 @@ NextSkill is a career intelligence platform in development. It uses job postings
 
 <sub>Landing page captured from the locally running React build.</sub>
 
+<details>
+<summary><strong>Expand the NextSkill product walkthrough</strong></summary>
+
+I ran the React app against its FastAPI backend and a local PostgreSQL database. The screens below use **seeded demo data**. The example listings, employers, and demand percentages shown are illustrative.
+
+**Skill-gap report** · Choose a target role, enter your current skills, and run the report. In this example, the app compares Python against software engineering postings and ranks the missing skills by how often they appear. Each recommendation shows example postings from the demo dataset.
+
+![NextSkill skill-gap report with ranked skills, demand bars, and example postings](./assets/nextskill-report-results.webp)
+
+**Jobs browser** · Explore the postings behind the analysis. Filter by role, location, or seniority, and open a listing to inspect its details.
+
+![NextSkill jobs browser showing role, location, and seniority filters above example listings](./assets/nextskill-jobs.webp)
+
+</details>
+
 ## Projects
 
-### Software, data, and AI
-
-**[Amazon ML Challenge — Business Entity Resolution](https://github.com/DharmiSapariya/Amazom_ML_Challenge_2026)**  
-A team project matching messy business records across datasets. I worked on text normalization, candidate generation, and analyzing why true matches were missed. The pipeline narrows the search using shared name and address signals, then scores candidate pairs with LightGBM.
-
-**[WalletWise](https://github.com/DharmiSapariya/WalletWise)** · In development  
-A full-stack personal finance dashboard for tracking spending, setting budgets, and exploring cash-flow forecasts. The backend computes spending trends and anomalies from transaction data and supplies context to an AI coach. Built with React, Express, and PostgreSQL.
-
-**[GroundGate](https://github.com/DharmiSapariya/GroundGate)** · Hackathon prototype  
-An AI agent can have permission to take an action while relying on outdated or incorrect facts. GroundGate checks those facts against source records before execution and rechecks them at the database write. The repository includes a scenario replay and synthetic evaluation.
-
-**[MongoDB AI Agent Platform](https://github.com/DharmiSapariya/AI-Agents-with-MongoDB-Certification)** · Scripted demo available  
-An agent workspace where users can inspect citations, replay tool calls, and use a separate Mentor to understand the execution trace. The stack includes React, FastAPI, LangGraph, and MongoDB. Live retrieval evaluation is pending.
-
-**[Kavach](https://github.com/DharmiSapariya/Kavach)** · Prototype  
-A deepfake detection prototype that combines multiple signals for image and video review. It explores how detection results can support practical next steps, such as preparing a report.
-
-### Other builds
-
-| Project | What it explores |
-| --- | --- |
-| [SafeBite](https://github.com/DharmiSapariya/SafeBite) | Food-label OCR, allergen screening based on dietary preferences, and alternative product suggestions. |
-| [ResourceRX](https://github.com/DharmiSapariya/ResourceRX) | A medical equipment sharing and leasing concept that connects clinics with equipment owners and service partners. |
-| [Legal Guard](https://github.com/DharmiSapariya/Legal_Guard-features) | A repository for Legal Guard feature development. |
-| [NeuraVapor](https://github.com/DharmiSapariya/NeuraVapor) | A hardware and software capstone exploring waste-heat recovery through membrane distillation, with sensor feedback and a browser-based 3D digital twin. |
-| [Border Eye](https://github.com/DharmiSapariya/BorderEye) | An Arduino coursework prototype that combines proximity, metal, and environmental sensors with LCD readings and Bluetooth alerts. |
+| Build | What it does | What to look for |
+| --- | --- | --- |
+| [**Amazon ML Challenge**](https://github.com/DharmiSapariya/Amazom_ML_Challenge_2026) | Matches business records across noisy datasets. | My work on normalization, candidate generation, and missed-match analysis. The team used LightGBM to score candidate pairs. |
+| [**WalletWise**](https://github.com/DharmiSapariya/WalletWise) | Helps users track spending, set budgets, and explore cash-flow forecasts. | In-development React app with a PostgreSQL-backed API, transaction analytics, and an AI coach. |
+| [**GroundGate**](https://github.com/DharmiSapariya/GroundGate) | Checks an AI agent’s assumptions against source records before acting. | Hackathon prototype with a second check at database write time and a replay of synthetic scenarios. |
+| [**MongoDB AI Agent Platform**](https://github.com/DharmiSapariya/AI-Agents-with-MongoDB-Certification) | Lets users inspect source citations and replay agent execution. | Scripted workspace demo and a separate Mentor that explains execution traces. Live retrieval evaluation is pending. |
+| [**Kavach**](https://github.com/DharmiSapariya/Kavach) | Combines detection signals for reviewing suspected deepfake images and videos. | Prototype exploring how detection scores can support reporting. |
+| [**SafeBite**](https://github.com/DharmiSapariya/SafeBite) | Reads food labels and checks ingredients against dietary preferences. | OCR, allergen screening, and suggested alternatives. |
+| [**ResourceRX**](https://github.com/DharmiSapariya/ResourceRX) | Explores equipment sharing between clinics, owners, and service partners. | Medical equipment leasing concept with workflows for each participant. |
+| [**Legal Guard**](https://github.com/DharmiSapariya/Legal_Guard-features) | Explores scheduling and case intake workflows for legal services. | Backend modules for meetings, transcripts, grievance intake, and public-interest litigation groups. |
+| [**NeuraVapor**](https://github.com/DharmiSapariya/NeuraVapor) | Explores recovering water from waste heat using membrane distillation. | Capstone prototype with sensor feedback and a browser-based 3D digital twin. |
+| [**Border Eye**](https://github.com/DharmiSapariya/BorderEye) | Combines proximity, metal, and environmental sensors on Arduino. | Coursework prototype with local readings and Bluetooth alerts. |
 
 ## Credentials
 
@@ -55,21 +56,28 @@ A deepfake detection prototype that combines multiple signals for image and vide
 <a href="https://www.credly.com/badges/9b5d068b-0566-479f-812b-93b06d01041b"><img src="https://raw.githubusercontent.com/DharmiSapariya/AI-Agents-with-MongoDB-Certification/main/assets/certification/mongodb-ai-agents-badge.png" height="112" alt="MongoDB AI Agents skill badge" /></a>
 </div>
 
-| Credential | Issued | Work and verification |
+| Credential | Focus | Evidence |
 | --- | --- | --- |
-| **AWS Certified Solutions Architect – Associate** | Nov 2026 · Expires Nov 2029 | [Study notes and certificate](https://github.com/DharmiSapariya/aws-solutions-architect-associate-certification) · [AWS verification](https://aws.amazon.com/verification) |
-| **Oracle Cloud Infrastructure 2025 Certified Generative AI Professional** | Jul 2026 · Expires Jul 2028 | [Labs and runbooks](https://github.com/DharmiSapariya/Oracle-Cloud-Infrastructure-Generative-AI-Professional-Certification) |
-| **Building AI Agents with MongoDB** | Nov 2026 | [Skill badge](https://www.credly.com/badges/9b5d068b-0566-479f-812b-93b06d01041b) · [Agent platform](https://github.com/DharmiSapariya/AI-Agents-with-MongoDB-Certification) |
-| **JPMorgan Chase & Co. Quantitative Research Job Simulation** | Jul 2026 | Issued by Forage. [Pricing and credit-risk exercises](https://github.com/DharmiSapariya/jpmc_quant_research_certification) · [Certificate](https://github.com/DharmiSapariya/jpmc_quant_research_certification/blob/main/docs/JPMorgan_Chase_certificate.pdf) |
-| **Kaggle Intro to Machine Learning** | Feb 2026 | [Course notebooks and notes](https://github.com/DharmiSapariya/Kaggle-Intro-to-Machine-Learning) |
+| **AWS Certified Solutions Architect – Associate** | Secure, resilient, and cost-aware cloud architecture. Issued Nov 2026, valid through Nov 2029. | [Certificate and study notes](https://github.com/DharmiSapariya/aws-solutions-architect-associate-certification) · [AWS verification](https://aws.amazon.com/verification) |
+| **Oracle Cloud Infrastructure 2025 Certified Generative AI Professional** | OCI Generative AI, language models, embeddings, and retrieval-augmented generation. Issued Jul 2026, valid through Jul 2028. | [Labs and runbooks](https://github.com/DharmiSapariya/Oracle-Cloud-Infrastructure-Generative-AI-Professional-Certification) |
+| **Building AI Agents with MongoDB** | Agent workflows, retrieval, and execution traces. Issued Nov 2026. | [Verified skill badge](https://www.credly.com/badges/9b5d068b-0566-479f-812b-93b06d01041b) · [Agent platform](https://github.com/DharmiSapariya/AI-Agents-with-MongoDB-Certification) |
+| **JPMorgan Chase & Co. Quantitative Research Job Simulation** | Commodity pricing, credit-risk modeling, and FICO score bucketing. Completed Jul 2026 through Forage. | [Exercises and certificate](https://github.com/DharmiSapariya/jpmc_quant_research_certification) |
+| **Kaggle Intro to Machine Learning** | Model validation, decision trees, and random forests. Completed Feb 2026. | [Course notebooks](https://github.com/DharmiSapariya/Kaggle-Intro-to-Machine-Learning) |
 
 [SQL practice on LeetCode](https://github.com/DharmiSapariya/SQL-LeetCode)
 
-## Tools
+## Tools and technologies
 
-**Software** · React, TypeScript, Node.js, Express, FastAPI  
-**Data and AI** · Python, SQL, PostgreSQL, MongoDB, Redis, scikit-learn, LightGBM, LangGraph  
-**Infrastructure and hardware** · Docker, AWS, Oracle Cloud Infrastructure, Raspberry Pi, Arduino
+| Area | Logos | Tools |
+| --- | --- | --- |
+| **Languages** | ![Languages logos](https://skillicons.dev/icons?i=py,js,ts,java,cpp,html,css&theme=dark) | Python, JavaScript, TypeScript, Java, C++, HTML, CSS, SQL |
+| **Frontend and design** | ![Frontend and design logos](https://skillicons.dev/icons?i=react,tailwind,vite,figma&theme=dark) | React, Tailwind CSS, Vite, Figma, Streamlit, Three.js |
+| **Backend and APIs** | ![Backend and APIs logos](https://skillicons.dev/icons?i=fastapi,flask,nodejs,express&theme=dark) | FastAPI, Flask, Node.js, Express |
+| **Machine learning and AI** | ![Machine learning and AI logos](https://skillicons.dev/icons?i=pytorch,opencv,sklearn&theme=dark) | PyTorch, OpenCV, scikit-learn, pandas, NumPy, LightGBM, spaCy, RapidFuzz, LangChain, LangGraph, Transformers, MediaPipe |
+| **Databases and caching** | ![Databases and caching logos](https://skillicons.dev/icons?i=postgres,mongodb,redis&theme=dark) | PostgreSQL, MongoDB, MongoDB Atlas, Redis |
+| **Cloud and development** | ![Cloud and development logos](https://skillicons.dev/icons?i=aws,docker,git,github,githubactions&theme=dark) | AWS, Oracle Cloud Infrastructure, Docker, Git, GitHub, GitHub Actions |
+| **Hardware** | ![Hardware logos](https://skillicons.dev/icons?i=raspberrypi,arduino&theme=dark) | Raspberry Pi, Arduino |
+| **Editors and IDEs** | ![Editors and IDEs logos](https://skillicons.dev/icons?i=vscode,pycharm,idea&theme=dark) | VS Code, PyCharm, IntelliJ IDEA |
 
 ## GitHub activity
 
