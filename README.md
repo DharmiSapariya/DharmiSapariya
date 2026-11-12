@@ -60,6 +60,10 @@ flowchart LR
     C --> D["Reporting workflows"]
 ```
 
+**MongoDB AI Agent Platform — scripted workspace preview**
+
+<a href="https://github.com/DharmiSapariya/AI-Agents-with-MongoDB-Certification/blob/main/docs/PLATFORM_REDESIGN.md"><img src="https://raw.githubusercontent.com/DharmiSapariya/AI-Agents-with-MongoDB-Certification/main/assets/screenshots/workspace/dashboard-fixture.png" width="100%" alt="MongoDB agent workspace dashboard showing a scripted demo run" /></a>
+
 **Business entity resolution**
 
 <img src="https://raw.githubusercontent.com/DharmiSapariya/Amazom_ML_Challenge_2026/main/docs/diagrams/pipeline.svg" width="100%" alt="Business entity resolution pipeline diagram" />
@@ -109,6 +113,9 @@ flowchart LR
 | Data and infrastructure | PostgreSQL, MongoDB, Redis, Docker, GitHub Actions, AWS, OCI |
 | Hardware, design, and tools | Raspberry Pi, Arduino, Three.js, Figma, Git, GitHub, VS Code, PyCharm, IntelliJ IDEA |
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,js,ts,java,cpp,html,css,fastapi,flask,react,tailwind,nodejs,express,pytorch,opencv,postgres,mongodb,redis,docker,aws,arduino,raspberrypi,figma,vscode,pycharm,idea,git,github&amp;theme=dark&amp;perline=14" alt="Technology icons for languages, frameworks, data tools, and hardware" />
+</p>
 
 ## GitHub activity
 
