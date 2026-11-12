@@ -1,88 +1,51 @@
-<div align="center">
+<img src="./banner.svg" width="100%" alt="Dharmi Sapariya, B.Tech CSE student at VIT-AP University" />
 
-<img src="./banner.svg" width="100%" alt="Dharmi Sapariya — software, data, AI, and engineering" />
+[LinkedIn](https://www.linkedin.com/in/dharmi-sapariya-b98754390/) · [Current work](#current-work) · [Projects](#projects) · [Credentials](#credentials) · [GitHub activity](#github-activity)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Dharmi%20Sapariya-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/dharmi-sapariya-b98754390/)
-[![GitHub](https://img.shields.io/badge/GitHub-DharmiSapariya-161b22?style=flat-square&logo=github)](https://github.com/DharmiSapariya)
-[![GitHub followers](https://img.shields.io/github/followers/DharmiSapariya?style=flat-square&logo=github&label=Followers)](https://github.com/DharmiSapariya?tab=followers)
-[![Profile views](https://komarev.com/ghpvc/?username=DharmiSapariya&style=flat-square&label=Profile+views&color=2563eb)](https://github.com/DharmiSapariya)
-[![NextSkill last commit](https://img.shields.io/github/last-commit/DharmiSapariya/NextSkill?style=flat-square&label=NextSkill%20activity)](https://github.com/DharmiSapariya/NextSkill/commits/main/)
+I’m a B.Tech Computer Science and Engineering student at VIT-AP University, specializing in AI and Machine Learning. I like working across the stack, from the interface and API to the data behind them. Outside software, I’m interested in finance, especially markets, quantitative research, and risk.
 
-[Projects](#selected-projects) · [Credentials](#credentials) · [Tools](#tools-and-technologies) · [Activity](#github-activity) · [Koi](#git-koi)
+## Current work
 
-</div>
+### [NextSkill](https://github.com/DharmiSapariya/NextSkill)
 
-## About
+NextSkill is a career intelligence platform in development. It uses job postings to help people see which skills employers ask for, identify gaps in their own experience, and decide what to learn next.
 
-I’m a B.Tech Computer Science and Engineering student at VIT-AP University (2024–2028), specializing in Artificial Intelligence and Machine Learning. I enjoy building across the stack, from interfaces and APIs to data pipelines and model evaluation. I’m also interested in finance, particularly markets, quantitative research, and how software can support better financial decisions.
+- **Job-market data.** An ingestion pipeline collects postings from Adzuna and RemoteOK. A skill taxonomy and NLP extraction turn job descriptions into searchable skill data.
+- **Career tools.** The app brings together skill-gap reports, résumé analysis, job matching, salary estimates, and role and skill graphs.
+- **Stack.** React, FastAPI, PostgreSQL, Redis, and Python. The repository also includes a Streamlit dashboard for exploring the data.
 
-## Selected projects
+[![NextSkill landing page running locally](./assets/nextskill-landing.webp)](https://github.com/DharmiSapariya/NextSkill)
 
-<img src="./metrics.svg" width="100%" alt="Reported project figures: NextSkill tests and API endpoints, candidate-stage recall for entity resolution, and WalletWise tests" />
+<sub>Landing page captured from the locally running React build.</sub>
 
-The numbers above come from the project repositories. The entity-resolution figure measures candidate retrieval on the documented validation sample. Several projects are still being developed.
+## Projects
 
-| Project | What it explores | Evidence and status |
-| --- | --- | --- |
-| **[Amazon ML Challenge — Business Entity Resolution](https://github.com/DharmiSapariya/Amazom_ML_Challenge_2026)** | Matching noisy business records with multi-key candidate generation and a LightGBM matcher | I worked on normalization, blocking experiments, and missed-match analysis. The repository includes scripts, trained model files, and [experiment reports](https://github.com/DharmiSapariya/Amazom_ML_Challenge_2026/tree/main/reports). |
-| **[NextSkill](https://github.com/DharmiSapariya/NextSkill)** | Job-market intelligence from postings, NLP skill extraction, and a dashboard for exploring skill demand | In development. Python, FastAPI, PostgreSQL, Redis, spaCy, and Streamlit. |
-| **[WalletWise](https://github.com/DharmiSapariya/WalletWise)** | Full-stack personal finance dashboard with budgeting, spending analytics, and an AI coach | In development. React, Express, PostgreSQL, and server-side analytics. |
-| **[GroundGate](https://github.com/DharmiSapariya/GroundGate)** | Checking an AI agent’s assumptions against source records before an action executes | Hackathon prototype with a scenario replay and documented synthetic evaluation. |
-| **[MongoDB AI Agent Platform](https://github.com/DharmiSapariya/AI-Agents-with-MongoDB-Certification)** | A workspace for inspecting an agent’s citations, replaying its execution, and learning how it works | Scripted demo and test evidence are documented. Live retrieval evaluation is pending. |
-| **[Kavach](https://github.com/DharmiSapariya/Kavach)** | A deepfake detection prototype combining multiple signals with reporting workflows | React, FastAPI, PyTorch, and OpenCV. |
-| **[NeuraVapor](https://github.com/DharmiSapariya/NeuraVapor)** | A capstone prototype exploring waste-heat recovery, membrane distillation, sensor feedback, and a 3D digital twin | Hardware and software prototype. Raspberry Pi, Python, and Three.js. |
+### Software, data, and AI
 
-### Project checks
+**[Amazon ML Challenge — Business Entity Resolution](https://github.com/DharmiSapariya/Amazom_ML_Challenge_2026)**  
+A team project matching messy business records across datasets. I worked on text normalization, candidate generation, and analyzing why true matches were missed. The pipeline narrows the search using shared name and address signals, then scores candidate pairs with LightGBM.
 
-[![NextSkill CI](https://github.com/DharmiSapariya/NextSkill/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/DharmiSapariya/NextSkill/actions/workflows/ci.yml)
-[![WalletWise CI](https://github.com/DharmiSapariya/WalletWise/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/DharmiSapariya/WalletWise/actions/workflows/ci.yml)
-[![MongoDB Agent Platform CI](https://github.com/DharmiSapariya/AI-Agents-with-MongoDB-Certification/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/DharmiSapariya/AI-Agents-with-MongoDB-Certification/actions/workflows/ci.yml)
+**[WalletWise](https://github.com/DharmiSapariya/WalletWise)** · In development  
+A full-stack personal finance dashboard for tracking spending, setting budgets, and exploring cash-flow forecasts. The backend computes spending trends and anomalies from transaction data and supplies context to an AI coach. Built with React, Express, and PostgreSQL.
 
-<details>
-<summary><b>Architecture diagrams</b></summary>
+**[GroundGate](https://github.com/DharmiSapariya/GroundGate)** · Hackathon prototype  
+An AI agent can have permission to take an action while relying on outdated or incorrect facts. GroundGate checks those facts against source records before execution and rechecks them at the database write. The repository includes a scenario replay and synthetic evaluation.
 
-**NextSkill**
+**[MongoDB AI Agent Platform](https://github.com/DharmiSapariya/AI-Agents-with-MongoDB-Certification)** · Scripted demo available  
+An agent workspace where users can inspect citations, replay tool calls, and use a separate Mentor to understand the execution trace. The stack includes React, FastAPI, LangGraph, and MongoDB. Live retrieval evaluation is pending.
 
-```mermaid
-flowchart LR
-    A["Job postings"] --> B["Ingest and extract skills"]
-    B --> C[("PostgreSQL")]
-    C --> D["FastAPI"]
-    D --> E["Streamlit dashboard"]
-```
+**[Kavach](https://github.com/DharmiSapariya/Kavach)** · Prototype  
+A deepfake detection prototype that combines multiple signals for image and video review. It explores how detection results can support practical next steps, such as preparing a report.
 
-**Kavach**
+### Other builds
 
-```mermaid
-flowchart LR
-    A["Image or video"] --> B["Detection signals"]
-    B --> C["Score and review"]
-    C --> D["Reporting workflows"]
-```
-
-**MongoDB AI Agent Platform — scripted workspace preview**
-
-<a href="https://github.com/DharmiSapariya/AI-Agents-with-MongoDB-Certification/blob/main/docs/PLATFORM_REDESIGN.md"><img src="https://raw.githubusercontent.com/DharmiSapariya/AI-Agents-with-MongoDB-Certification/main/assets/screenshots/workspace/dashboard-fixture.png" width="100%" alt="MongoDB agent workspace dashboard showing a scripted demo run" /></a>
-
-**Business entity resolution**
-
-<img src="https://raw.githubusercontent.com/DharmiSapariya/Amazom_ML_Challenge_2026/main/docs/diagrams/pipeline.svg" width="100%" alt="Business entity resolution pipeline diagram" />
-
-[Recall at different candidate limits](https://github.com/DharmiSapariya/Amazom_ML_Challenge_2026/blob/main/docs/diagrams/recall_at_k.svg) · [Results](https://github.com/DharmiSapariya/Amazom_ML_Challenge_2026/blob/main/docs/diagrams/results.svg) · [Error breakdown](https://github.com/DharmiSapariya/Amazom_ML_Challenge_2026/blob/main/docs/diagrams/loss_breakdown.svg)
-
-</details>
-
-<details>
-<summary><b>More projects and experiments</b></summary>
-
-| Project | Focus |
+| Project | What it explores |
 | --- | --- |
-| [SafeBite](https://github.com/DharmiSapariya/SafeBite) · [Team repository](https://github.com/Jasmine0987/safebite) | Food-label OCR, allergen screening, and swap suggestions |
-| [ResourceRX](https://github.com/DharmiSapariya/ResourceRX) | Medical equipment sharing and leasing concept |
-| [Legal Guard](https://github.com/DharmiSapariya/Legal_Guard-features) | Legal Guard feature development |
-| [Border Eye](https://github.com/DharmiSapariya/BorderEye) | Arduino multi-sensor coursework prototype |
-
-</details>
+| [SafeBite](https://github.com/DharmiSapariya/SafeBite) | Food-label OCR, allergen screening based on dietary preferences, and alternative product suggestions. |
+| [ResourceRX](https://github.com/DharmiSapariya/ResourceRX) | A medical equipment sharing and leasing concept that connects clinics with equipment owners and service partners. |
+| [Legal Guard](https://github.com/DharmiSapariya/Legal_Guard-features) | A repository for Legal Guard feature development. |
+| [NeuraVapor](https://github.com/DharmiSapariya/NeuraVapor) | A hardware and software capstone exploring waste-heat recovery through membrane distillation, with sensor feedback and a browser-based 3D digital twin. |
+| [Border Eye](https://github.com/DharmiSapariya/BorderEye) | An Arduino coursework prototype that combines proximity, metal, and environmental sensors with LCD readings and Bluetooth alerts. |
 
 ## Credentials
 
@@ -102,20 +65,11 @@ flowchart LR
 
 [SQL practice on LeetCode](https://github.com/DharmiSapariya/SQL-LeetCode)
 
-## Tools and technologies
+## Tools
 
-| Area | Tools I’ve used |
-| --- | --- |
-| Languages | Python, SQL, JavaScript, TypeScript, Java, C++, HTML, CSS |
-| Web and backend | React, Tailwind CSS, Node.js, Express, FastAPI, Flask, Streamlit |
-| Data and ML | pandas, NumPy, scikit-learn, LightGBM, PyTorch, OpenCV, spaCy, RapidFuzz |
-| AI applications | LangGraph, LangChain, MongoDB Atlas, Transformers, MediaPipe |
-| Data and infrastructure | PostgreSQL, MongoDB, Redis, Docker, GitHub Actions, AWS, OCI |
-| Hardware, design, and tools | Raspberry Pi, Arduino, Three.js, Figma, Git, GitHub, VS Code, PyCharm, IntelliJ IDEA |
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,js,ts,java,cpp,html,css,fastapi,flask,react,tailwind,nodejs,express,pytorch,opencv,postgres,mongodb,redis,docker,aws,arduino,raspberrypi,figma,vscode,pycharm,idea,git,github&amp;theme=dark&amp;perline=14" alt="Technology icons for languages, frameworks, data tools, and hardware" />
-</p>
+**Software** · React, TypeScript, Node.js, Express, FastAPI  
+**Data and AI** · Python, SQL, PostgreSQL, MongoDB, Redis, scikit-learn, LightGBM, LangGraph  
+**Infrastructure and hardware** · Docker, AWS, Oracle Cloud Infrastructure, Raspberry Pi, Arduino
 
 ## GitHub activity
 
@@ -123,14 +77,7 @@ flowchart LR
   <img src="./assets/contributions.svg" width="100%" alt="GitHub contribution calendar with daily and weekly streaks" />
 </p>
 
-<p align="center">
-  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" width="49%" alt="GitHub statistics" />
-  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" alt="Languages by commits" />
-  <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%" alt="Repositories by language" />
-  <img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" width="49%" alt="GitHub activity by time of day" />
-</p>
-
-[Contribution calendar](https://github.com/DharmiSapariya#js-contribution-activity) · [Profile card refresh history](https://github.com/DharmiSapariya/DharmiSapariya/actions/workflows/profile-summary-cards.yml)
+[Contribution calendar](https://github.com/DharmiSapariya#js-contribution-activity)
 
 ## Git-koi
 
