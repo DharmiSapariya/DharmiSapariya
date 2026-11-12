@@ -1,11 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="288" viewBox="0 0 1200 288" role="img" aria-labelledby="title">
   <title id="title">Dharmi Sapariya</title>
-  <desc id="desc">B.Tech Computer Science and Engineering student at VIT-AP University</desc>
-  <rect width="1200" height="240" rx="10" fill="#f4f1e8"/>
-  <path d="M48 39h1104M48 201h1104" stroke="#b4b9aa"/>
-  <path d="M1104 80v80M1064 120h80" stroke="#b4b9aa"/>
-  <circle cx="1104" cy="120" r="25" fill="none" stroke="#526c57"/>
-  <circle cx="1104" cy="120" r="4" fill="#526c57"/>
-  <text x="55" y="129" fill="#1f3227" font-family="Georgia, 'Times New Roman', serif" font-size="66">Dharmi Sapariya</text>
-  <text x="58" y="166" fill="#46574c" font-family="Arial, sans-serif" font-size="20" letter-spacing=".7">Computer Science &amp; Engineering · VIT-AP University</text>
+  <rect width="1200" height="288" rx="12" fill="#e9e5d7"/>
+  <path d="M42 45H1158M42 243H1158" stroke="#28392d" stroke-opacity=".35"/>
+  <path d="M43 45v17m0 164v17m1114-198v17m0 164v17" stroke="#28392d" stroke-opacity=".35"/>
+  <text x="68" y="168" fill="#22362b" font-family="Georgia, 'Times New Roman', serif" font-size="79" letter-spacing="-3">Dharmi Sapariya</text>
+  <path d="M72 192h68" stroke="#ad4934" stroke-width="4"/>
+  <g transform="translate(870 58)">
+    <path d="M0 0H248V172H0Z" fill="#23372c"/>
+    <path d="M0 43h248M0 86h248M0 129h248M62 0v172M124 0v172M186 0v172" stroke="#e9e5d7" stroke-opacity=".16"/>
+    <path d="M36 129V43h46a43 43 0 0 1 0 86H36" fill="none" stroke="#e9e5d7" stroke-width="6"/>
+    <path d="M213 43h-42a22 22 0 0 0 0 44h20a21 21 0 0 1 0 42h-53" fill="none" stroke="#e9e5d7" stroke-width="6"/>
+    <path d="M33 126h6v6h-6zm177-86h6v6h-6zm-75 86h6v6h-6z" fill="#e07958"/>
+  </g>
 </svg>

@@ -1,4 +1,4 @@
-<img src="./banner.svg" width="100%" alt="Dharmi Sapariya, B.Tech CSE student at VIT-AP University" />
+<img src="./banner.svg" width="100%" alt="Dharmi Sapariya with a custom DS monogram" />
 
 [LinkedIn](https://www.linkedin.com/in/dharmi-sapariya-b98754390/) · [Current work](#current-work) · [Projects](#projects) · [Credentials](#credentials) · [Tools](#tools-and-technologies) · [GitHub activity](#github-activity)
 
