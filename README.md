@@ -1,206 +1,134 @@
 <div align="center">
 
-<img src="./banner.svg" width="100%" alt="Dharmi Sapariya: AI-backed software, from data pipelines to hardware" />
+<img src="./banner.svg" width="100%" alt="Dharmi Sapariya — software, data, AI, and engineering" />
 
-<br/>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Dharmi%20Sapariya-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/dharmi-sapariya-b98754390/)
+[![GitHub](https://img.shields.io/badge/GitHub-DharmiSapariya-161b22?style=flat-square&logo=github)](https://github.com/DharmiSapariya)
+[![GitHub followers](https://img.shields.io/github/followers/DharmiSapariya?style=flat-square&logo=github&label=Followers)](https://github.com/DharmiSapariya?tab=followers)
+[![Profile views](https://komarev.com/ghpvc/?username=DharmiSapariya&style=flat-square&label=Profile+views&color=2563eb)](https://github.com/DharmiSapariya)
+[![NextSkill last commit](https://img.shields.io/github/last-commit/DharmiSapariya/NextSkill?style=flat-square&label=NextSkill%20activity)](https://github.com/DharmiSapariya/NextSkill/commits/main/)
 
-[![GitHub](https://img.shields.io/badge/GitHub-DharmiSapariya-161b22?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DharmiSapariya)
-[![Followers](https://img.shields.io/github/followers/DharmiSapariya?style=for-the-badge&logo=github&label=Followers&color=58a6ff&labelColor=161b22)](https://github.com/DharmiSapariya?tab=followers)
-[![Profile views](https://komarev.com/ghpvc/?username=DharmiSapariya&style=for-the-badge&label=Profile+views&color=58a6ff&labelColor=161b22)](https://github.com/DharmiSapariya)
-[![Last commit](https://img.shields.io/github/last-commit/DharmiSapariya/NextSkill?style=for-the-badge&logo=git&logoColor=white&label=Last+commit&color=58a6ff&labelColor=161b22)](https://github.com/DharmiSapariya?tab=repositories)
-
-**[Selected work](#selected-work)** · **[Architecture](#how-two-of-them-work)** · **[Activity](#activity)** · **[git-koi](#git-koi)** · **[Learning](#certifications-and-learning)** · **[Stack](#tech-stack)**
+[Projects](#selected-projects) · [Credentials](#credentials) · [Tools](#tools-and-technologies) · [Activity](#github-activity) · [Koi](#git-koi)
 
 </div>
 
-<!--
-  Add contact badges here, for example:
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-HANDLE)
-  [![Email](https://img.shields.io/badge/Email-161b22?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR-EMAIL)
--->
+## About
 
-<img src="./metrics.svg" width="100%" alt="Selected numbers: 156 tests, 30+ API endpoints, 92.35% blocking recall, 44 tests" />
+I’m a B.Tech Computer Science and Engineering student at VIT-AP University (2024–2028), specializing in Artificial Intelligence and Machine Learning. I enjoy building across the stack, from interfaces and APIs to data pipelines and model evaluation. I’m also interested in finance, particularly markets, quantitative research, and how software can support better financial decisions.
 
-## Focus
+## Selected projects
 
-| Area | What I do | Evidence |
-|---|---|---|
-| **Data & ML** | Ingestion, NLP, detection and matching pipelines | Skill extraction in NextSkill, deepfake scoring in Kavach, entity resolution at 92.35% blocking recall |
-| **Full-stack** | APIs, dashboards and AI features behind a secure backend | React, Node, FastAPI and PostgreSQL apps with CI, Docker and test suites |
-| **Hardware + software** | Sensors, control loops and live visualisation | Raspberry Pi and Arduino projects with a 3D digital twin and sensor fusion |
+<img src="./metrics.svg" width="100%" alt="Reported project figures: NextSkill tests and API endpoints, candidate-stage recall for entity resolution, and WalletWise tests" />
 
-## Selected work
+The numbers above come from the project repositories. The entity-resolution figure measures candidate retrieval on the documented validation sample. Several projects are still being developed.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+| Project | What it explores | Evidence and status |
+| --- | --- | --- |
+| **[Amazon ML Challenge — Business Entity Resolution](https://github.com/DharmiSapariya/Amazom_ML_Challenge_2026)** | Matching noisy business records with multi-key candidate generation and a LightGBM matcher | I worked on normalization, blocking experiments, and missed-match analysis. The repository includes scripts, trained model files, and [experiment reports](https://github.com/DharmiSapariya/Amazom_ML_Challenge_2026/tree/main/reports). |
+| **[NextSkill](https://github.com/DharmiSapariya/NextSkill)** | Job-market intelligence from postings, NLP skill extraction, and a dashboard for exploring skill demand | In development. Python, FastAPI, PostgreSQL, Redis, spaCy, and Streamlit. |
+| **[WalletWise](https://github.com/DharmiSapariya/WalletWise)** | Full-stack personal finance dashboard with budgeting, spending analytics, and an AI coach | In development. React, Express, PostgreSQL, and server-side analytics. |
+| **[GroundGate](https://github.com/DharmiSapariya/GroundGate)** | Checking an AI agent’s assumptions against source records before an action executes | Hackathon prototype with a scenario replay and documented synthetic evaluation. |
+| **[MongoDB AI Agent Platform](https://github.com/DharmiSapariya/AI-Agents-with-MongoDB-Certification)** | A workspace for inspecting an agent’s citations, replaying its execution, and learning how it works | Scripted demo and test evidence are documented. Live retrieval evaluation is pending. |
+| **[Kavach](https://github.com/DharmiSapariya/Kavach)** | A deepfake detection prototype combining multiple signals with reporting workflows | React, FastAPI, PyTorch, and OpenCV. |
+| **[NeuraVapor](https://github.com/DharmiSapariya/NeuraVapor)** | A capstone prototype exploring waste-heat recovery, membrane distillation, sensor feedback, and a 3D digital twin | Hardware and software prototype. Raspberry Pi, Python, and Three.js. |
 
-### [NextSkill](https://github.com/DharmiSapariya/NextSkill)
-Career intelligence for the tech job market, built for individuals instead of enterprises. Job postings from two sources go into PostgreSQL, NLP extracts the skills, and the dashboard recommends what to learn next. Every number traces back to real postings.
+### Project checks
 
-**30+ API endpoints · 156 tests**
-
-[![NextSkill CI status on main](https://github.com/DharmiSapariya/NextSkill/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/DharmiSapariya/NextSkill/actions/workflows/ci.yml?query=branch%3Amain)
-
-`Python` `FastAPI` `PostgreSQL` `Redis` `Docker` `spaCy` `Streamlit`
-
-</td>
-<td width="50%" valign="top">
-
-### [Kavach](https://github.com/DharmiSapariya/Kavach)
-Free deepfake detection for women in India. A 4-signal pipeline scores any image or video, then helps the user act: a pre-filled FIR draft, platform takedown reports, and a WhatsApp bot for quick checks.
-
-**4-signal detection · FIR draft · WhatsApp bot**
-
-`React` `Tailwind` `FastAPI` `PyTorch` `OpenCV`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [WalletWise](https://github.com/DharmiSapariya/WalletWise)
-Full-stack personal finance dashboard with an AI coach that reads the user's real transactions. Server-side analytics (trend regression, anomaly detection, Monte-Carlo budget forecasting), and the Claude API runs on the backend so keys never reach the browser.
-
-**44 automated tests · Docker Compose**
-
-[![WalletWise CI status on main](https://github.com/DharmiSapariya/WalletWise/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/DharmiSapariya/WalletWise/actions/workflows/ci.yml?query=branch%3Amain)
-
-`React` `Node.js` `Express` `PostgreSQL` `Claude API`
-
-</td>
-<td width="50%" valign="top">
-
-### [NeuraVapor](https://github.com/DharmiSapariya/NeuraVapor)
-Engineering Clinics capstone: a closed-loop prototype that turns data-center waste heat into distilled water using membrane distillation, with noise-adaptive control and a live 3D digital twin in the browser. Built on about INR 6,000 to 7,000.
-
-**Closed-loop control · live 3D twin**
-
-`Raspberry Pi` `Python` `Three.js` `Sensors`
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-
-### [Amazon ML Challenge 2026: Business Entity Resolution](https://github.com/DharmiSapariya/Amazom_ML_Challenge_2026)
-Two-stage pipeline for matching noisy business records: high-recall candidate generation, then hard-negative matching. I built the data engineering and blocking stage, which reached **92.35% blocking recall** on the validation sample, up from about 24% for the first baseline.
-
-`Python` `Pandas` `RapidFuzz` `scikit-learn` `LightGBM`
-
-</td>
-</tr>
-</table>
+[![NextSkill CI](https://github.com/DharmiSapariya/NextSkill/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/DharmiSapariya/NextSkill/actions/workflows/ci.yml)
+[![WalletWise CI](https://github.com/DharmiSapariya/WalletWise/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/DharmiSapariya/WalletWise/actions/workflows/ci.yml)
+[![MongoDB Agent Platform CI](https://github.com/DharmiSapariya/AI-Agents-with-MongoDB-Certification/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/DharmiSapariya/AI-Agents-with-MongoDB-Certification/actions/workflows/ci.yml)
 
 <details>
-<summary><b>More projects</b></summary>
-<br/>
+<summary><b>Architecture diagrams</b></summary>
 
-| Project | What it is | Stack |
-|---|---|---|
-| [**SafeBite**](https://github.com/Jasmine0987/safebite) | Allergen-aware food label scanner: OCR, personal diet profile, safe / flagged / unclear verdicts, and swap suggestions | `FastAPI` `OCR` `JavaScript` |
-| [**ResourceRX**](https://github.com/DharmiSapariya/ResourceRX) | Peer-to-peer medical equipment sharing network with clinic, owner, technician and logistics portals and a local Ollama assistant | `React` `Vite` `Node.js` `Ollama` |
-| [**BorderEye**](https://github.com/DharmiSapariya/BorderEye) | Arduino intrusion detection that fuses ultrasonic, metal, gas and temperature sensors with Bluetooth alerts | `Arduino` `C++` |
-
-</details>
-
-### How two of them work
-
-<details>
-<summary><b>NextSkill:</b> from job postings to a learning recommendation</summary>
+**NextSkill**
 
 ```mermaid
 flowchart LR
-    A["Job postings<br/>2 sources"] --> B[("PostgreSQL")]
-    B --> C["NLP skill extraction<br/>spaCy"]
-    C --> D["FastAPI<br/>30+ endpoints"]
+    A["Job postings"] --> B["Ingest and extract skills"]
+    B --> C[("PostgreSQL")]
+    C --> D["FastAPI"]
     D --> E["Streamlit dashboard"]
-    E --> F["What to learn next"]
 ```
+
+**Kavach**
+
+```mermaid
+flowchart LR
+    A["Image or video"] --> B["Detection signals"]
+    B --> C["Score and review"]
+    C --> D["Reporting workflows"]
+```
+
+**Business entity resolution**
+
+<img src="https://raw.githubusercontent.com/DharmiSapariya/Amazom_ML_Challenge_2026/main/docs/diagrams/pipeline.svg" width="100%" alt="Business entity resolution pipeline diagram" />
+
+[Recall at different candidate limits](https://github.com/DharmiSapariya/Amazom_ML_Challenge_2026/blob/main/docs/diagrams/recall_at_k.svg) · [Results](https://github.com/DharmiSapariya/Amazom_ML_Challenge_2026/blob/main/docs/diagrams/results.svg) · [Error breakdown](https://github.com/DharmiSapariya/Amazom_ML_Challenge_2026/blob/main/docs/diagrams/loss_breakdown.svg)
 
 </details>
 
 <details>
-<summary><b>Kavach:</b> from a suspicious file to action</summary>
+<summary><b>More projects and experiments</b></summary>
 
-```mermaid
-flowchart LR
-    A["Image or video<br/>web app or WhatsApp bot"] --> B["4-signal<br/>detection pipeline"]
-    B --> C{"Score"}
-    C --> D["Pre-filled FIR draft"]
-    C --> E["Platform takedown report"]
-```
+| Project | Focus |
+| --- | --- |
+| [SafeBite](https://github.com/DharmiSapariya/SafeBite) · [Team repository](https://github.com/Jasmine0987/safebite) | Food-label OCR, allergen screening, and swap suggestions |
+| [ResourceRX](https://github.com/DharmiSapariya/ResourceRX) | Medical equipment sharing and leasing concept |
+| [Legal Guard](https://github.com/DharmiSapariya/Legal_Guard-features) | Legal Guard feature development |
+| [Border Eye](https://github.com/DharmiSapariya/BorderEye) | Arduino multi-sensor coursework prototype |
 
 </details>
 
-## Activity
+## Credentials
+
+<div align="center">
+<a href="https://github.com/DharmiSapariya/aws-solutions-architect-associate-certification"><img src="https://raw.githubusercontent.com/DharmiSapariya/aws-solutions-architect-associate-certification/main/certification/aws-saa-badge.png" height="112" alt="AWS Solutions Architect Associate badge" /></a>
+<a href="https://github.com/DharmiSapariya/Oracle-Cloud-Infrastructure-Generative-AI-Professional-Certification"><img src="https://raw.githubusercontent.com/DharmiSapariya/Oracle-Cloud-Infrastructure-Generative-AI-Professional-Certification/main/assets/oci-genai-professional-badge.jpg" height="112" alt="Oracle OCI Generative AI Professional badge" /></a>
+<a href="https://www.credly.com/badges/9b5d068b-0566-479f-812b-93b06d01041b"><img src="https://raw.githubusercontent.com/DharmiSapariya/AI-Agents-with-MongoDB-Certification/main/assets/certification/mongodb-ai-agents-badge.png" height="112" alt="MongoDB AI Agents skill badge" /></a>
+</div>
+
+| Credential | Issued | Work and verification |
+| --- | --- | --- |
+| **AWS Certified Solutions Architect – Associate** | Nov 2026 · Expires Nov 2029 | [Study notes and certificate](https://github.com/DharmiSapariya/aws-solutions-architect-associate-certification) · [AWS verification](https://aws.amazon.com/verification) |
+| **Oracle Cloud Infrastructure 2025 Certified Generative AI Professional** | Jul 2026 · Expires Jul 2028 | [Labs and runbooks](https://github.com/DharmiSapariya/Oracle-Cloud-Infrastructure-Generative-AI-Professional-Certification) |
+| **Building AI Agents with MongoDB** | Nov 2026 | [Skill badge](https://www.credly.com/badges/9b5d068b-0566-479f-812b-93b06d01041b) · [Agent platform](https://github.com/DharmiSapariya/AI-Agents-with-MongoDB-Certification) |
+| **JPMorgan Chase & Co. Quantitative Research Job Simulation** | Jul 2026 | Issued by Forage. [Pricing and credit-risk exercises](https://github.com/DharmiSapariya/jpmc_quant_research_certification) · [Certificate](https://github.com/DharmiSapariya/jpmc_quant_research_certification/blob/main/docs/JPMorgan_Chase_certificate.pdf) |
+| **Kaggle Intro to Machine Learning** | Feb 2026 | [Course notebooks and notes](https://github.com/DharmiSapariya/Kaggle-Intro-to-Machine-Learning) |
+
+[SQL practice on LeetCode](https://github.com/DharmiSapariya/SQL-LeetCode)
+
+## Tools and technologies
+
+| Area | Tools I’ve used |
+| --- | --- |
+| Languages | Python, SQL, JavaScript, TypeScript, Java, C++, HTML, CSS |
+| Web and backend | React, Tailwind CSS, Node.js, Express, FastAPI, Flask, Streamlit |
+| Data and ML | pandas, NumPy, scikit-learn, LightGBM, PyTorch, OpenCV, spaCy, RapidFuzz |
+| AI applications | LangGraph, LangChain, MongoDB Atlas, Transformers, MediaPipe |
+| Data and infrastructure | PostgreSQL, MongoDB, Redis, Docker, GitHub Actions, AWS, OCI |
+| Hardware, design, and tools | Raspberry Pi, Arduino, Three.js, Figma, Git, GitHub, VS Code, PyCharm, IntelliJ IDEA |
+
+
+## GitHub activity
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=DharmiSapariya&hide_border=true&border_radius=10&background=0D1117&stroke=30363D&ring=58A6FF&fire=F78166&currStreakNum=F0F6FC&sideNums=F0F6FC&currStreakLabel=58A6FF&sideLabels=8B949E&dates=6E7681" width="49%" alt="Daily contribution streak" />
-  <img src="https://streak-stats.demolab.com?user=DharmiSapariya&mode=weekly&hide_border=true&border_radius=10&background=0D1117&stroke=30363D&ring=BC8CFF&fire=F78166&currStreakNum=F0F6FC&sideNums=F0F6FC&currStreakLabel=BC8CFF&sideLabels=8B949E&dates=6E7681" width="49%" alt="Weekly contribution streak" />
-</p>
-<p align="center"><sub>Daily streak (left) and weekly streak (right)</sub></p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DharmiSapariya&theme=github-dark&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=f0f6fc" width="98%" alt="Contribution activity graph" />
+  <img src="./assets/contributions.svg" width="100%" alt="GitHub contribution calendar with daily and weekly streaks" />
 </p>
 
 <p align="center">
-  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" width="49%" alt="GitHub stats" />
-  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" alt="Most used languages" />
+  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" width="49%" alt="GitHub statistics" />
+  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" alt="Languages by commits" />
+  <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%" alt="Repositories by language" />
+  <img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" width="49%" alt="GitHub activity by time of day" />
 </p>
+
+[Contribution calendar](https://github.com/DharmiSapariya#js-contribution-activity) · [Profile card refresh history](https://github.com/DharmiSapariya/DharmiSapariya/actions/workflows/profile-summary-cards.yml)
+
+## Git-koi
+
 <p align="center">
-  <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%" alt="Repos per language" />
-  <img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" width="49%" alt="Productive time" />
+  <img src="./koi/koi.gif" width="256" alt="Animated gold koi drawn from Dharmi Sapariya’s GitHub activity" />
 </p>
-<p align="center"><sub><a href="https://github.com/DharmiSapariya/DharmiSapariya/actions/workflows/profile-summary-cards.yml">Profile card refresh history</a></sub></p>
 
-## git-koi
-
-<table>
-<tr>
-<td width="290" align="center" valign="middle">
-  <img src="./koi/koi.gif" width="256" alt="My git-koi, redrawn nightly from my GitHub activity" />
-  <br/><sub>My koi, redrawn nightly (00:20 UTC)</sub>
-</td>
-<td valign="top">
-
-**[git-koi](https://github.com/yalongwastaken/git-koi)** turns a GitHub account's public activity into a unique pixel-art koi, so the profile shows a living summary of the work instead of only counters.
-
-| Signal | What it changes on the koi |
-|---|---|
-| Languages used | Colours |
-| Total contributions | Growth stage |
-| Weekly streaks | Fins, colour vibrancy and a glimmer for long records |
-| Yesterday's activity | Movement: cruise, dart, surface-feed, rest |
-
-**Automated:** a GitHub Action reads public data with the built-in token and commits a new looping GIF each night. **Six bodies:** white, black, asagi, tea, gold, platinum (mine is gold).
-
-<sub>Set it up from the <a href="https://github.com/yalongwastaken/git-koi/blob/main/docs/getting-started.md">getting-started guide</a>. Created by <a href="https://github.com/yalongwastaken">@yalongwastaken</a>.</sub>
-
-</td>
-</tr>
-</table>
-
-## Certifications and Learning
-
-| | |
-|---|---|
-| [**OCI Generative AI Professional**](https://github.com/DharmiSapariya/Oracle-Cloud-Infrastructure-Generative-AI-Professional-Certification) | Labs, runbooks and 300+ practice questions covering LLMs, RAG with LangChain and Oracle 23ai, and GenAI Agents |
-| [**JPMorgan Chase Quantitative Research**](https://github.com/DharmiSapariya/jpmc_quant_research_certification) | Forage simulation: natural gas price estimation and contract pricing, loan default prediction, FICO score bucketing |
-| [**Kaggle: Intro to Machine Learning**](https://github.com/DharmiSapariya/Kaggle-Intro-to-Machine-Learning) | Notes and notebooks on decision trees and random forests |
-| [**SQL practice**](https://github.com/DharmiSapariya/SQL-LeetCode) | LeetCode SQL solutions, updated as I go |
-
-## Tech Stack
-
-| | |
-|---|---|
-| **Languages** | ![](https://skillicons.dev/icons?i=py,js,html,css,cpp&theme=dark) |
-| **Frameworks & Libraries** | ![](https://skillicons.dev/icons?i=fastapi,flask,react,tailwind,nodejs,express&theme=dark) |
-| **AI & ML** | ![](https://skillicons.dev/icons?i=pytorch,opencv,numpy&theme=dark) `scikit-learn` `spaCy` `LangChain` `Transformers` `MediaPipe` |
-| **Data & Infra** | ![](https://skillicons.dev/icons?i=postgres,redis,docker&theme=dark) |
-| **Hardware** | ![](https://skillicons.dev/icons?i=arduino,raspberrypi&theme=dark) |
-| **Design** | ![](https://skillicons.dev/icons?i=figma&theme=dark) |
-| **IDEs & Tools** | ![](https://skillicons.dev/icons?i=vscode,pycharm,idea,git,github&theme=dark) |
-
-<div align="center"><sub>Stats refresh automatically · koi drawn nightly by <a href="https://github.com/yalongwastaken/git-koi">git-koi</a></sub></div>
+[git-koi](https://github.com/yalongwastaken/git-koi) by [@yalongwastaken](https://github.com/yalongwastaken) renders public GitHub activity as a pixel-art koi. Languages influence the palette, contributions influence growth, and streaks and recent activity affect details and motion. [Koi refresh history](https://github.com/DharmiSapariya/DharmiSapariya/actions/workflows/koi.yml)

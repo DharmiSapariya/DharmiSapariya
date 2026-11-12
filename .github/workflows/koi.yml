@@ -1,38 +1,57 @@
-# Copy into your profile repository as .github/workflows/koi.yml, then embed
-# <img src="koi/koi.gif" width="256" alt="My koi"> in its README.md.
 name: Koi
 
 on:
   schedule:
-    # Just after midnight UTC, so the koi shows the day that just ended.
     - cron: "20 0 * * *"
   workflow_dispatch:
   push:
-    paths: [.github/workflows/koi.yml]
+    paths:
+      - .github/workflows/koi.yml
+      - scripts/render_activity.py
 
 permissions:
   contents: write
 
-concurrency: koi
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
 
 jobs:
   koi:
+    if: github.ref_name == github.event.repository.default_branch
     runs-on: ubuntu-latest
+    env:
+      DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
     steps:
       - uses: actions/checkout@v7
-      - uses: yalongwastaken/git-koi@v1
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: yalongwastaken/git-koi@v1.0.2
         with:
           body: gold
           output-dir: koi
-      - name: Commit the koi if it changed
+      - name: Render contribution calendar
+        env:
+          PROFILE_LOGIN: ${{ github.repository_owner }}
+        run: python3 scripts/render_activity.py "$PROFILE_LOGIN" assets/contributions.svg
+      - name: Verify koi output
+        run: test -s koi/koi.gif && test -s koi/koi.png
+      - name: Publish refreshed assets
         shell: bash
         run: |
-          git add koi/koi.gif
+          git add koi/koi.gif koi/koi.png assets/contributions.svg
           if git diff --cached --quiet; then
-            echo "The koi is unchanged; nothing to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit --quiet --message "koi: draw the day's koi"
-          git push --quiet
+          git commit -m "Refresh profile koi"
+          for attempt in 1 2 3; do
+            git fetch origin "$DEFAULT_BRANCH"
+            git rebase FETCH_HEAD
+            if git push origin "HEAD:refs/heads/$DEFAULT_BRANCH"; then
+              exit 0
+            fi
+            sleep "$((attempt * 2))"
+          done
+          exit 1
