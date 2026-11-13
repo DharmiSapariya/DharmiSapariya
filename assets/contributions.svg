@@ -383,7 +383,8 @@
 <rect x="912" y="78" width="12" height="12" rx="2" fill="#26a641"></rect>
 <rect x="912" y="93" width="12" height="12" rx="2" fill="#0e4429"></rect>
 <rect x="912" y="108" width="12" height="12" rx="2" fill="#0e4429"></rect>
-<rect x="912" y="123" width="12" height="12" rx="2" fill="#0e4429"></rect>
+<rect x="912" y="123" width="12" height="12" rx="2" fill="#006d32"></rect>
+<rect x="912" y="138" width="12" height="12" rx="2" fill="#222b38"></rect>
 <text x="28" y="192" font-size="13">Current daily streak: 24 days · Current weekly streak: 16 weeks</text>
-<text x="932" y="192" text-anchor="end" fill="#9ca9b8" font-size="12">Through 12 Nov 2026</text>
+<text x="932" y="192" text-anchor="end" fill="#9ca9b8" font-size="12">Through 13 Nov 2026</text>
 </g></svg>
